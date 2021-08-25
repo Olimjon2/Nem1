@@ -1,0 +1,102 @@
+@media(max-width:1200px) {
+    .service{
+        margin-bottom: 40px;
+    }
+    .plants__cards {
+       justify-content: center;
+    }
+    .plants__card-block{
+        margin: 10px;
+    }
+    .info__case{
+        display: flex;
+        justify-content: center;
+    }
+    .shop__left {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .shop__left-title {
+        padding-left: 15px;
+        padding-right: 15px;
+    }   
+    p.info__desc{
+        margin-bottom: 10px !important;
+    }
+    .info__img img {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+@media(max-width:992px) {
+.header__link{
+    padding: 10px 15px;
+}
+.slider{
+    margin-bottom: 0;
+}
+.header__title {
+    margin-top: 20px;
+    font-size: 35px;
+}
+.header__desc {
+    font-size: 14px;
+}
+    .info__case {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .info__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 30px;
+    }
+    .info__picture{
+        display: flex;
+        justify-content: center;
+    }
+    .info__desc {
+        max-width: none;
+        text-align: center;
+    }
+    .info__title {
+        font-size: 30px;
+    }
+    .shop__left-title{
+        font-size: 36px;
+        width: 100%;
+    }
+    
+}
+@media(max-width:768px) {
+    
+}
+@media(max-width:576px) {
+  .header__title{
+      line-height: 35px;
+      margin-top: 15px;
+      font-size: 30px;
+  }  
+  .plants__title{
+      text-align: center;
+  }
+  .plants__drop-desc{
+      display: none;
+  }
+  .shop__left-title{
+      font-size: 25px;
+  }
+  .shop__left-link{
+      padding: 10px 20px;
+  }
+}
+.footer{
+    padding-top: 30px;
+}
+@media(max-width:470px) {
+  .header__title{
+      font-size:25px ;
+  }     
+}
