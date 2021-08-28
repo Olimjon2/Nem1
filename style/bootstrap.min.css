@@ -6645,7 +6645,7 @@ fieldset:disabled .btn {
     padding: 0;
     color: #fff;
     text-align: center;
-    background: 0 0;
+    background: 1;
     border: 0;
     opacity: .5;
     transition: opacity .15s ease
